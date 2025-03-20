@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      background-color: hsl(212, 45%, 89%);
+      display: flex;
+      height: 100vh;
+      /* the height is made to fit the one page */
+      align-items: center;
+      /* moves the content to the center */
+      justify-content: center;
+      /* moves content to the middle */
+    }
+    .container{
+      height: fit-content;
+      /* no matter how long the text is, the box will expand to fit the text. */
+      width: 300px;
+      background-color: white;
+      padding: 15px;
+      border-radius: 15px;
+      font-family: "Outfit", sans-serif;
+      text-align: center;
+    }
+    img{
+      width: 100%;
+      border-radius: 15px;
+    }
+    h2{
+      padding-top: 20px;
+      color: hsl(218, 44%, 22%);
+    }
+     /* I used only padding top because there would me too much space between the heading a p */
+    p{
+      color: hsl(216, 15%, 48%);
+      padding: 20px;
+       
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="C:\Users\USER\Desktop\Projects\QR Code Scanner\instruction\images\image-qr-code.png" alt="">
+    <h2>Improve your front-end skills by building projects</h2>
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+</body>
+</html>
